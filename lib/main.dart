@@ -10,6 +10,7 @@ void main() {
       title: "Kasir Bro",
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
+      debugShowCheckedModeBanner: false,
     ),
   );
 }
